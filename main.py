@@ -14,3 +14,5 @@ def about():
 @app.get('/personal')
 def personal():
     return {'Details':{'Phone Number':'+1857-230-7571'}}
+
+@app.get('/hello')
